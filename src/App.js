@@ -19,7 +19,7 @@ export default function App() {
 
   const [showProducs, setShowProducts] = useState(true);
 
-  const [position, setPosition] = useState({ x: 0, y: 0 });
+  // const [position, setPosition] = useState({ x: 0, y: 0 });
   const pointerMoveHandler = (e) => {
     setPosition({ x: e.clientX, y: e.pageY });
   };
@@ -31,7 +31,7 @@ export default function App() {
       </Header>
       <div className="contents__wrap">
         <div className="contents__visual">
-          <img src="/visual.jpg" />
+          <img src="/visual.jpg" alt="메인이미지" />
         </div>
         <div className="contents__main">
           <div className="floating__img"></div>
