@@ -1,5 +1,5 @@
-import React, { useReducer } from 'react';
-import personReducer from './initiallJs/person-reducer';
+// import React, { useReducer } from 'react';
+// import personReducer from './initiallJs/person-reducer';
 import { useImmer } from 'use-immer';
 
 export default function AppMentors() {
