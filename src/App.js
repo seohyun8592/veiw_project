@@ -20,9 +20,9 @@ export default function App() {
   const [showProducs, setShowProducts] = useState(true);
 
   // const [position, setPosition] = useState({ x: 0, y: 0 });
-  const pointerMoveHandler = (e) => {
-    setPosition({ x: e.clientX, y: e.pageY });
-  };
+  // const pointerMoveHandler = (e) => {
+  //   setPosition({ x: e.clientX, y: e.pageY });
+  // };
 
   return (
     <div className="App" onPointerMove={pointerMoveHandler}>
