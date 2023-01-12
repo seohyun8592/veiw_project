@@ -62,7 +62,7 @@ export default function App() {
               <div className="tab__contents">
                 <div className="content">
                   <ul style={{ marginBottom: '20px' }}>
-                    <li>- 컴포넌트 안에 또 다른 컴포넌트 만들기</li>
+                    <li>- 컴포넌트 안에 또 다른 컴포넌트 만들기 </li>
                     <li>- 컴포넌트 재사용</li>
                     <li>- props 전달하기</li>
                   </ul>
