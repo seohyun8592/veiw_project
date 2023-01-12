@@ -19,10 +19,10 @@ export default function App() {
 
   const [showProducs, setShowProducts] = useState(true);
 
-  // const [position, setPosition] = useState({ x: 0, y: 0 });
-  // const pointerMoveHandler = (e) => {
-  //   setPosition({ x: e.clientX, y: e.pageY });
-  // };
+  const [position, setPosition] = useState({ x: 0, y: 0 });
+  const pointerMoveHandler = (e) => {
+    setPosition({ x: e.clientX, y: e.pageY });
+  };
 
   return (
     <div className="App" onPointerMove={pointerMoveHandler}>
@@ -191,10 +191,10 @@ export default function App() {
         {/* contents__main */}
 
         {/* <AppXY x={position.x} y={position.y} /> */}
-        {/* <div
+        <div
           className="pointer"
           style={{ transform: `translate(${position.x}px, ${position.y}px)` }}
-        ></div> */}
+        ></div>
       </div>
       {/* contents__wrap */}
     </div>
